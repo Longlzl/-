@@ -1,0 +1,52 @@
+Found a 5 line (41 tokens) duplication in the following files: 
+Starting at line 206 of D:\Java\eclipse-workspace\生命 游戏\src\生命游戏\GUI.java
+Starting at line 233 of D:\Java\eclipse-workspace\生命 游戏\src\生命游戏\GUI.java
+
+        } else {
+            int[][] grid = cell.getGrid();
+            for (int i = 0; i < maxWidth; i++) {
+                for (int j = 0; j < maxLength; j++) {
+                    if (e.getSource() == nGrid[i][j]) {
+=====================================================================
+Found a 4 line (35 tokens) duplication in the following files: 
+Starting at line 37 of D:\Java\eclipse-workspace\生命 游戏\src\生命游戏\Cell.java
+Starting at line 44 of D:\Java\eclipse-workspace\生命 游戏\src\生命游戏\Cell.java
+
+    public void randomCell(){
+        for (int i = 1; i <= maxLength; i++)
+            for (int j = 1; j <= maxWidth; j++)
+                grid[i][j] = Math.random()>0.5?1:0;
+=====================================================================
+Found a 3 line (33 tokens) duplication in the following files: 
+Starting at line 61 of D:\Java\eclipse-workspace\生命 游戏\src\生命游戏\GUI.java
+Starting at line 129 of D:\Java\eclipse-workspace\生命 游戏\src\生命游戏\GUI.java
+
+        for (int i = 0; i < maxWidth; i++) {
+            for (int j = 0; j < maxLength; j++) {
+                nGrid[i][j] = new JButton(""); //按钮内容置空以表示细胞
+=====================================================================
+Found a 3 line (32 tokens) duplication in the following files: 
+Starting at line 38 of D:\Java\eclipse-workspace\生命 游戏\src\生命游戏\Cell.java
+Starting at line 45 of D:\Java\eclipse-workspace\生命 游戏\src\生命游戏\Cell.java
+Starting at line 65 of D:\Java\eclipse-workspace\生命 游戏\src\生命游戏\Cell.java
+
+        for (int i = 1; i <= maxLength; i++)
+            for (int j = 1; j <= maxWidth; j++)
+                grid[i][j] = Math.random()>0.5?1:0;
+=====================================================================
+Found a 3 line (27 tokens) duplication in the following files: 
+Starting at line 128 of D:\Java\eclipse-workspace\生命 游戏\src\生命游戏\GUI.java
+Starting at line 207 of D:\Java\eclipse-workspace\生命 游戏\src\生命游戏\GUI.java
+Starting at line 234 of D:\Java\eclipse-workspace\生命 游戏\src\生命游戏\GUI.java
+
+        exit.addActionListener(this);
+        for (int i = 0; i < maxWidth; i++) {
+            for (int j = 0; j < maxLength; j++) {
+=====================================================================
+Found a 2 line (26 tokens) duplication in the following files: 
+Starting at line 61 of D:\Java\eclipse-workspace\生命 游戏\src\生命游戏\GUI.java
+Starting at line 208 of D:\Java\eclipse-workspace\生命 游戏\src\生命游戏\GUI.java
+Starting at line 235 of D:\Java\eclipse-workspace\生命 游戏\src\生命游戏\GUI.java
+
+        for (int i = 0; i < maxWidth; i++) {
+            for (int j = 0; j < maxLength; j++) {
